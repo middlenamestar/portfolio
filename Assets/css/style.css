@@ -1,17 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    display: flex;
+    border: 5px solid black;
+    padding: 20px;
 }
 
 header h3 {
     border: 5px solid black;
+    display: inline-block;
 }
 
 header nav {
     border: 5px solid black;
-    justify-content: flex-end;
-    flex-direction: row;
+    float: right;
 }
 
 header nav ul {
     list-style-type: none;
 }
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.introduction {
+    border: 5px solid black;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.introduction img {
+    width: 18%;
+    height: 18%;
+    border: 3px solid black;
+}
+
+.introduction p {
+    border: 3px solid black;
+}
+
