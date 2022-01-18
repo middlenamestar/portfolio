@@ -1,0 +1,17 @@
+header {
+    display: flex;
+}
+
+header h3 {
+    border: 5px solid black;
+}
+
+header nav {
+    border: 5px solid black;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+header nav ul {
+    list-style-type: none;
+}
