@@ -25,22 +25,25 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
 }
 
 .introduction {
     border: 5px solid black;
     display: inline-flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .introduction img {
     width: 18%;
     height: 18%;
     border: 3px solid black;
+    margin-left: 25px;
 }
 
 .introduction p {
     border: 3px solid black;
+    font-size: 18px;
+    font-style: italic;
 }
 
