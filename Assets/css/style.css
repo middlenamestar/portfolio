@@ -4,6 +4,16 @@
     margin: 0;
 }
 
+/* body {
+    background-color: #bcc5cf;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 header {
     border: 5px solid black;
     padding: 25px;
@@ -12,6 +22,10 @@ header {
 header h2 {
     border: 5px solid black;
     display: inline-block;
+}
+
+header h2:hover {
+    cursor: default;
 }
 
 header nav {
@@ -57,6 +71,11 @@ main {
 .RecentWorks {
     text-align: center;
     border: 3px solid black;
+    padding: 5px;
+}
+
+.RecentWorks:hover {
+    cursor: default;
 }
 
 .Project1 {
@@ -64,21 +83,67 @@ main {
     padding: 10px;
     display: inline-block;
     text-align: center;
+    position: relative;
+}
+
+.Project1header {
+    border: 3px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.Project1body {
+    border: 3px solid black;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translate(-50%, -50%);
+}
+
+.Project1header:hover, .Project1body:hover {
+    cursor: cell;
 }
 
 .Project1 img {
     width: 60%;
     height: 60%;
+    opacity: 0.5;
 }
 
-/* .Project1header {
-    text-align: center;
-    border: 3px solid black;
-    width: 50%;
-    padding: 10px;
+.Project1 img:hover, .Project2 img:hover, .Project3 img:hover, .Project4 img:hover, .Project5 img:hover, .Project6 img:hover, .Project7 img:hover, .Project8 img:hover, .Project9 img:hover, .Project10 img:hover {
+    opacity: 1;
 }
 
-.Project1body {
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    border: 5px solid fuchsia;
     text-align: center;
-    border: 3px solid black;
-} */
+    gap: 20px;
+    padding: 20px;
+}
+
+.Project2, .Project3, .Project4, .Project5, .Project6, .Project7, .Project8, .Project9, .Project10 {
+    border: 2px solid black;
+    position: relative;
+}
+
+.Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img, .Project7 img, .Project8 img, .Project9 img, .Project10 img {
+    opacity: 0.5;
+}
+
+.Project2header, .Project3header, .Project4header, .Project5header, .Project6header, .Project7header, .Project8header, .Project9header, .Project10header {
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.Project2header:hover, .Project3header:hover, .Project4header:hover, .Project5header:hover, .Project6header:hover, .Project7header:hover, .Project8header:hover, .Project9header:hover, .Project10header:hover {
+    cursor: cell;
+}
