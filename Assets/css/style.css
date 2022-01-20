@@ -59,8 +59,8 @@ header nav ul li:hover {
 }
 
 .introduction img {
-    width: 18%;
-    height: 18%;
+    width: 19%;
+    height: 19%;
     border: 2px solid blue;
     margin-left: 25px;
 }
@@ -73,15 +73,17 @@ header nav ul li:hover {
 }
 
 main {
-    margin-top: 20px;
-    padding: 20px;
+    /* margin-top: 20px; */
+    /* padding: 20px; */
+    margin: 25px;
     /* border: 3px solid red; */
 }
 
 .RecentWorks {
     text-align: center;
     /* border: 3px solid black; */
-    padding: 15px;
+    padding: 10px;
+    padding-top: 30px;
 }
 
 .RecentWorks:hover {
@@ -120,8 +122,8 @@ main {
 
 .Project1 img {
     border: 4px solid black;
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     opacity: 0.5;
 }
 
@@ -159,4 +161,108 @@ main {
 
 .Project2header:hover, .Project3header:hover, .Project4header:hover, .Project5header:hover, .Project6header:hover, .Project7header:hover, .Project8header:hover, .Project9header:hover, .Project10header:hover {
     cursor: cell;
+}
+
+.HitMeUp {
+    margin: 50px;
+}
+
+.TextMe {
+    /* border: 5px solid purple; */
+    display: inline-block;
+    padding: 15px;
+    width: 50%;
+}
+
+label {
+    display: block;
+    text-align: center;
+    /* border: 5px solid pink; */
+    padding: 2px;
+    letter-spacing: 2px;
+    /* background-color: gray; */
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    resize: none;
+    border-radius: 30px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    letter-spacing: 1px;
+    border-radius: 9px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.MyInfo {
+    /* border: 5px solid blue; */
+    padding: 20px;
+    width: 50%;
+    float: right;
+}
+
+.MyInfo h3 {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.MyInfo h3:hover {
+    cursor: default;
+}
+
+.WaysToContact {
+    list-style-type: none;
+    /* border: 5px solid black; */
+    text-indent: 30%;
+    line-height: 2.3;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#github-contact::before {
+    content: "✰";
+    margin-right: 25px;
+}
+
+#email::before {
+    content: "✉︎";
+    margin-right: 25px;
+}
+
+#phone-number::before {
+    content: "☏";
+    margin-right: 25px;
+}
+
+#github-contact a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#email:hover, #phone-number:hover {
+    cursor: default;
+}
+
+footer {
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 20%;
 }
