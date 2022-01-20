@@ -170,16 +170,20 @@ main {
     cursor: cell;
 }
 
+/* this is the Contact section */
 .HitMeUp {
     margin: 50px;
 }
 
+/* this is the form */
 .TextMe {
     display: inline-block;
     padding: 15px;
+    /* the form and Contact Information are width 50% so they are side by side */
     width: 50%;
 }
 
+/* this is the header for the form where it says "Message me" */
 label {
     display: block;
     text-align: center;
@@ -187,10 +191,15 @@ label {
     letter-spacing: 2px;
 }
 
+/* this is the text box for the form */
 textarea {
+    /* makes form stack on top of each other */
     display: block;
+    /* centers the form */
     margin: auto;
+    /* disables resizing of textbox */
     resize: none;
+    /* rounds corners of textbox */
     border-radius: 30px;
 }
 
@@ -209,6 +218,7 @@ button:hover {
     cursor: pointer;
 }
 
+/* this is the section with "Contact Information" and listing of github, email, and phone # */
 .MyInfo {
     padding: 20px;
     width: 50%;
@@ -227,6 +237,7 @@ button:hover {
     cursor: default;
 }
 
+/* stylized the list of contact information */
 .WaysToContact {
     list-style-type: none;
     text-indent: 30%;
@@ -236,6 +247,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
+/* put in icons to the left of text */
 #github-contact::before {
     content: "✰";
     margin-right: 25px;
