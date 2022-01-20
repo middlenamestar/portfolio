@@ -4,38 +4,40 @@
     margin: 0;
 }
 
+/* applying background color and font to the whole page */
 body {
     background-color: #bcc5cf;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* hyperlinks will show black text and no decoration */
 a {
     color: black;
     text-decoration: none;
 }
 
 header {
-    /* border: 5px solid black; */
     padding: 25px;
 }
 
 header h2 {
-    /* border: 5px solid black; */
     display: inline-block;
 }
 
+/* changes cursor to default pointer */
 header h2:hover {
     cursor: default;
 }
 
+/* navigation moved to right side */
 header nav {
-    /* border: 5px solid black; */
     float: right;
     font-size: 19px;
     margin-top: 1px;
     margin-right: 50px;
 }
 
+/* removes bullet points */
 header nav ul {
     list-style-type: none;
 }
@@ -45,6 +47,7 @@ header nav ul li {
     margin-left: 75px;
 }
 
+/* style - when you hover it makes the link blue and underlined */
 header nav ul li:hover {
     text-decoration: underline blue;
     color: blue;
@@ -52,7 +55,6 @@ header nav ul li:hover {
 
 .introduction {
     padding: 25px;
-    /* border: 5px solid purple; */
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -66,22 +68,17 @@ header nav ul li:hover {
 }
 
 .introduction p {
-    /* border: 3px solid black; */
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-style: italic;
 }
 
 main {
-    /* margin-top: 20px; */
-    /* padding: 20px; */
     margin: 25px;
-    /* border: 3px solid red; */
 }
 
 .RecentWorks {
     text-align: center;
-    /* border: 3px solid black; */
     padding: 10px;
     padding-top: 30px;
 }
@@ -91,7 +88,6 @@ main {
 }
 
 .Project1 {
-    /* border: 5px solid blue; */
     padding: 10px;
     display: inline-block;
     text-align: center;
@@ -99,7 +95,6 @@ main {
 }
 
 .Project1header {
-    /* border: 3px solid black; */
     position: absolute;
     left: 50%;
     bottom: 50px;
@@ -107,7 +102,6 @@ main {
 }
 
 .Project1body {
-    /* border: 3px solid black; */
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     position: absolute;
@@ -135,14 +129,12 @@ main {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
-    /* border: 5px solid fuchsia; */
     text-align: center;
     gap: 20px;
     padding: 20px;
 }
 
 .Project2, .Project3, .Project4, .Project5, .Project6, .Project7, .Project8, .Project9, .Project10 {
-    /* border: 2px solid black; */
     position: relative;
 }
 
@@ -156,7 +148,6 @@ main {
     left: 50%;
     bottom: 8px;
     transform: translate(-50%, -50%);
-    /* border: 2px solid black; */
 }
 
 .Project2header:hover, .Project3header:hover, .Project4header:hover, .Project5header:hover, .Project6header:hover, .Project7header:hover, .Project8header:hover, .Project9header:hover, .Project10header:hover {
@@ -168,7 +159,6 @@ main {
 }
 
 .TextMe {
-    /* border: 5px solid purple; */
     display: inline-block;
     padding: 15px;
     width: 50%;
@@ -177,10 +167,8 @@ main {
 label {
     display: block;
     text-align: center;
-    /* border: 5px solid pink; */
     padding: 2px;
     letter-spacing: 2px;
-    /* background-color: gray; */
 }
 
 textarea {
@@ -206,7 +194,6 @@ button:hover {
 }
 
 .MyInfo {
-    /* border: 5px solid blue; */
     padding: 20px;
     width: 50%;
     float: right;
@@ -226,7 +213,6 @@ button:hover {
 
 .WaysToContact {
     list-style-type: none;
-    /* border: 5px solid black; */
     text-indent: 30%;
     line-height: 2.3;
     margin-top: 10px;
