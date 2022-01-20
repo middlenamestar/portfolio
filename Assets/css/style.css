@@ -53,6 +53,7 @@ header nav ul li:hover {
     color: blue;
 }
 
+/* about me section evenly spaced and centered */
 .introduction {
     padding: 25px;
     display: inline-flex;
@@ -60,6 +61,7 @@ header nav ul li:hover {
     align-items: center;
 }
 
+/* set size for selfie photo, has a blue border and push in from the left */
 .introduction img {
     width: 19%;
     height: 19%;
@@ -67,16 +69,19 @@ header nav ul li:hover {
     margin-left: 25px;
 }
 
+/* set the text next to selfie font to times, set the size, and italicized */
 .introduction p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-style: italic;
 }
 
+/* this is the section that holds the projects */
 main {
     margin: 25px;
 }
 
+/* recent works header and project 1 centered and padded a little */
 .RecentWorks {
     text-align: center;
     padding: 10px;
@@ -91,9 +96,11 @@ main {
     padding: 10px;
     display: inline-block;
     text-align: center;
+    /* used position relative so i could move around the project 1 header and body texts */
     position: relative;
 }
 
+/* moved the text to overlap the image */
 .Project1header {
     position: absolute;
     left: 50%;
@@ -101,6 +108,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
+/* moved the text to overlap image, times, and italicized too. */
 .Project1body {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -110,10 +118,12 @@ main {
     transform: translate(-50%, -50%);
 }
 
+/* stylized cursor for hovering over the project names and description of project 1 */
 .Project1header:hover, .Project1body:hover {
     cursor: cell;
 }
 
+/* set a border to project 1, image size, and faded opacity */
 .Project1 img {
     border: 4px solid black;
     width: 70%;
@@ -121,10 +131,12 @@ main {
     opacity: 0.5;
 }
 
+/* when you hover over the projects they become full opacity */
 .Project1 img:hover, .Project2 img:hover, .Project3 img:hover, .Project4 img:hover, .Project5 img:hover, .Project6 img:hover, .Project7 img:hover, .Project8 img:hover, .Project9 img:hover, .Project10 img:hover {
     opacity: 1;
 }
 
+/* used grid for projects 2-10 */
 .grid {
     display: grid;
     width: 100%;
@@ -134,15 +146,18 @@ main {
     padding: 20px;
 }
 
+/* position relative so i could move project headers into the image */
 .Project2, .Project3, .Project4, .Project5, .Project6, .Project7, .Project8, .Project9, .Project10 {
     position: relative;
 }
 
+/* set border and faded opacity to projects 2-10 */
 .Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img, .Project7 img, .Project8 img, .Project9 img, .Project10 img {
     border: 2px solid gray;
     opacity: 0.5;
 }
 
+/* moved project headers on top of images */
 .Project2header, .Project3header, .Project4header, .Project5header, .Project6header, .Project7header, .Project8header, .Project9header, .Project10header {
     position: absolute;
     left: 50%;
@@ -150,6 +165,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
+/* special cursor for hovering over the project headers */
 .Project2header:hover, .Project3header:hover, .Project4header:hover, .Project5header:hover, .Project6header:hover, .Project7header:hover, .Project8header:hover, .Project9header:hover, .Project10header:hover {
     cursor: cell;
 }
