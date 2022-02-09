@@ -1,0 +1,14 @@
+/* font-family: 'Alegreya', serif;
+font-family: 'Chivo', sans-serif;
+font-family: 'Newsreader', serif; */
+
+a{
+    color: rgb(209, 144, 209);
+    text-decoration: underline;
+}
+
+body{
+    line-height: 1.6;
+    font-family: 'Chivo', sans-serif;
+    font-style: italic;
+}
