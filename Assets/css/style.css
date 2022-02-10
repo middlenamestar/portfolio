@@ -1,291 +1,40 @@
-/* font-family: 'Alegreya', serif;
-font-family: 'Chivo', sans-serif;
-font-family: 'Newsreader', serif; */
-
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+body{
+    font-family: 'Newsreader', serif;
+    font-style: italic;
 }
 
-/* applying background color and font to the whole page */
-body {
-    background-color: #bcc5cf;
-    font-family: Arial, Helvetica, sans-serif;
+#star, #header, #works, #contact, ul{
+    cursor: default;
 }
 
-/* hyperlinks will show black text and no decoration */
 a {
     color: black;
-    text-decoration: none;
-}
-
-header {
-    padding: 25px;
-}
-
-header h2 {
-    display: inline-block;
-}
-
-/* changes cursor to default pointer */
-header h2:hover {
-    cursor: default;
-}
-
-/* navigation moved to right side */
-header nav {
-    float: right;
-    font-size: 19px;
-    margin-top: 1px;
-    margin-right: 50px;
-}
-
-/* removes bullet points */
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 75px;
-}
-
-/* style - when you hover it makes the link blue and underlined */
-header nav ul li:hover {
-    text-decoration: underline blue;
-    color: blue;
-}
-
-/* about me section evenly spaced and centered */
-.introduction {
-    padding: 25px;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* set size for selfie photo, has a blue border and push in from the left */
-.introduction img {
-    width: 19%;
-    height: 19%;
-    border: 2px solid blue;
-    margin-left: 25px;
-}
-
-/* set the text next to selfie font to times, set the size, and italicized */
-.introduction p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-style: italic;
-}
-
-/* this is the section that holds the projects */
-main {
-    margin: 25px;
-}
-
-/* recent works header and project 1 centered and padded a little */
-.RecentWorks {
-    text-align: center;
-    padding: 10px;
-    padding-top: 30px;
-}
-
-.RecentWorks:hover {
-    cursor: default;
-}
-
-.Project1 {
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    /* used position relative so i could move around the project 1 header and body texts */
-    position: relative;
-}
-
-/* moved the text to overlap the image */
-.Project1header {
-    position: absolute;
-    left: 75%;
-    bottom: 50px;
-    transform: translate(-50%, -50%);
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: rgb(236, 236, 236);
-    font-size: 20px;
-}
-
-/* moved the text to overlap image, times, and italicized too. */
-.Project1body {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    position: absolute;
-    left: 50%;
-    bottom: 25px;
-    transform: translate(-50%, -50%);
-}
-
-/* stylized cursor for hovering over the project names and description of project 1 */
-.Project1header:hover, .Project1body:hover {
-    cursor: cell;
-}
-
-/* set a border to project 1, image size, and faded opacity */
-.Project1 img {
-    border: 1px solid black;
-    width: 70%;
-    height: 70%;
-    opacity: 0.5;
-}
-
-/* when you hover over the projects they become full opacity */
-.Project1 img:hover, .Project2 img:hover, .Project3 img:hover, .Project4 img:hover, .Project5 img:hover, .Project6 img:hover, .Project7 img:hover, .Project8 img:hover, .Project9 img:hover, .Project10 img:hover {
-    opacity: 1;
-}
-
-/* used grid for projects 2-10 */
-.grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* position relative so i could move project headers into the image */
-.Project2, .Project3, .Project4, .Project5, .Project6, .Project7, .Project8, .Project9, .Project10 {
-    position: relative;
-}
-
-/* set border and faded opacity to projects 2-10 */
-.Project2 img, .Project3 img, .Project4 img, .Project5 img, .Project6 img, .Project7 img, .Project8 img, .Project9 img, .Project10 img {
-    border: 2px solid gray;
-    opacity: 0.5;
-}
-
-/* moved project headers on top of images */
-.Project2header, .Project3header, .Project4header, .Project5header, .Project6header, .Project7header, .Project8header, .Project9header, .Project10header {
-    position: absolute;
-    left: 50%;
-    bottom: 8px;
-    transform: translate(-50%, -50%);
-}
-
-/* special cursor for hovering over the project headers */
-.Project2header:hover, .Project3header:hover, .Project4header:hover, .Project5header:hover, .Project6header:hover, .Project7header:hover, .Project8header:hover, .Project9header:hover, .Project10header:hover {
-    cursor: cell;
-}
-
-/* this is the Contact section */
-.HitMeUp {
-    margin: 50px;
-}
-
-/* this is the form */
-.TextMe {
-    display: inline-block;
-    padding: 15px;
-    /* the form and Contact Information are width 50% so they are side by side */
-    width: 50%;
-}
-
-/* this is the header for the form where it says "Message me" */
-label {
-    display: block;
-    text-align: center;
-    padding: 2px;
-    letter-spacing: 2px;
-}
-
-/* this is the text box for the form */
-textarea {
-    /* makes form stack on top of each other */
-    display: block;
-    /* centers the form */
-    margin: auto;
-    /* disables resizing of textbox */
-    resize: none;
-    /* rounds corners of textbox */
-    border-radius: 30px;
-}
-
-button {
-    display: block;
-    margin: auto;
-    font-size: 15px;
-    padding: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
-    letter-spacing: 1px;
-    border-radius: 9px;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-/* this is the section with "Contact Information" and listing of github, email, and phone # */
-.MyInfo {
-    padding: 20px;
-    width: 50%;
-    float: right;
-}
-
-.MyInfo h3 {
-    font-size: 20px;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-.MyInfo h3:hover {
-    cursor: default;
-}
-
-/* stylized the list of contact information */
-.WaysToContact {
-    list-style-type: none;
-    text-indent: 30%;
-    line-height: 2.3;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
-/* put in icons to the left of text */
-#github-contact::before {
-    content: "✰";
-    margin-right: 25px;
-}
-
-#email::before {
-    content: "✉︎";
-    margin-right: 25px;
-}
-
-#phone-number::before {
-    content: "☏";
-    margin-right: 25px;
-}
-
-#github-contact a {
-    font-weight: bold;
     text-decoration: underline;
 }
 
-#email:hover, #phone-number:hover {
-    cursor: default;
+a:hover {
+    color: black;
+}
+
+.card{
+    border: none;
+}
+
+img{
+    opacity: 0.7;
+}
+
+img:hover{
+    opacity: 1;
 }
 
 footer {
-    text-align: center;
-    padding: 6px;
-    font-size: 15px;
     background-color: lightslategray;
-    font-family: 'Times New Roman', Times, serif;
-    text-indent: 20%;
+    font-style: normal;
 }
+
+img, #stardust{
+    cursor: pointer;
+}
+
+/* background-color: #bcc5cf; */
