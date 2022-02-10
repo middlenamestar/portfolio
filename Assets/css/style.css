@@ -3,6 +3,10 @@ body{
     font-style: italic;
 }
 
+::selection{
+    background: rgb(202, 228, 130);
+}
+
 #star, #header, #works, #contact, ul{
     cursor: default;
 }

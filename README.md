@@ -2,7 +2,7 @@
 
 ## Description
 
-Portfolio showcasing Priscilla's recent projects, her contact information, and a little about her.
+With this updated and restructured portfolio, the priority was to make the application mobile-responsive. All information is laid out very structurally, top to bottom, making it easy to digest. Simple design is the best design! Thank you and enjoy <3
 
 ## Usage
 
