@@ -6,12 +6,15 @@ A portfolio page showcasing Priscilla's recent projects, her contact information
 
 ## Deployment
 
-Deployed with GitHub Pages: https://middlenamestar.github.io/PriscillasPortfolio/
+Deployed with GitHub Pages: https://middlenamestar.github.io/portfolio/
 
 ## Usage
 
-Simply scroll through the page to browse through works, write a message to Priscilla, and enjoy the layout :)
+Simply scroll through the page to browse through resume and recent works, a little info about Priscilla, and lastly her contact information. Cheers :)
+
+## Screenshot Image
+![Portfolio includes a white background, black text, and images of landing pages.](/Assets/images/screenshot.png)
 
 ## Credits
 
-I used my own photos and placeholder images :)
+Google Fonts, Bootstrap
