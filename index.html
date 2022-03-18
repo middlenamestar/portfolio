@@ -4,17 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <title>priscilla's portfolio</title>
-    <link rel="icon" type="image/x-icon" href="https://37.media.tumblr.com/44d4fb34d7d9a0407c8fd5520e2c3123/tumblr_nago0vkGOD1tbhv9ro1_500.gif">
+    <title>priscilla ma</title>
+    <link rel="icon" type="image/x-icon" href="Assets/images/carnation.png">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    
     <!-- google fonts. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Chivo:ital,wght@0,300;1,300&family=Newsreader:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
-
     <!-- css -->
     <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
@@ -22,18 +19,36 @@
 <body>
     <header>
         <div class="container-fluid pt-1">
-            <h1 id="star">☆ <small><a href="./Assets/files/RESUME.pdf">résumé</a></small></h1>
+            <h1 id="star">
+                ☆ 
+                <small>
+                    <a href="./Assets/files/RESUME.pdf">résumé</a>
+                </small>
+            </h1>
         </div>
     </header>
+    <!-- about me -->
     <div class="jumbotron my-3">
+        <img id="avi" class="img-fluid mb-4" src="./Assets/images/E9X1IU-VoAEIiPL.jpeg" alt="avatar">
         <h2 id="header" class="display-4">hi! my name is priscilla. I am an artist and designer at heart. I make rocking websites.</h2>
     </div>
+    <!-- works -->
     <div class="container">
         <div class="container text-center py-2">
             <h2 id="works">take a look at some of my works:</h2>
         </div>
-        <!-- crypto cards -->
+        <!-- CRATE -->
         <div class="card pt-1 pb-4">
+            <img class="card-img-top" src="./Assets/images/crate.png" alt="CRATE landing page">
+            <div class="text-center py-3">
+                <h3 class="card-text"><small>
+                    <a href="https://github.com/middlenamestar/CRATE">repo</a> / 
+                    <a href="https://crate9o9.herokuapp.com/">application</a>
+                </small></h3>
+            </div>
+        </div>
+        <!-- crypto cards -->
+        <div class="card pt-4 pb-5">
             <img class="card-img-top" src="./Assets/images/project1Home.png" alt="crypto cards landing page">
             <div class="text-center py-3">
                 <h3 class="card-text"><small>
@@ -42,31 +57,36 @@
                 </small></h3>
             </div>
         </div>
-        <!-- weather dash -->
+        <!-- blog -->
         <div class="card pt-4 pb-5">
-            <img class="card-img-top" src="./Assets/images/weatherdash.png" alt="weather dashboard landing page"/>
+            <img class="" src="./Assets/images/blog_1.png" alt="blog home page"/>
+            <img class="" src="./Assets/images/blog_2.png" alt="blog dashboard"/>
             <div class="text-center py-3">
                 <h3 class="card-text"><small>
-                    <a href="https://github.com/middlenamestar/weather-dashboard">repo</a> / 
-                    <a href="https://middlenamestar.github.io/weather-dashboard/">application</a>
+                    <a href="https://github.com/middlenamestar/blog-dot-com">repo</a> / 
+                    <a href="https://blogdotcom.herokuapp.com/">application</a>
                 </small></h3>
             </div>
         </div>
     </div>
-    <!-- CONTACT ME -->
+    <!-- contact -->
     <div class="container">
-        <div class="card">
-            <h2 id="contact" class="text-center py-3">connect with me!</h2>
-            <ul class="pb-3">
-                <li><a href="https://github.com/middlenamestar">github</a></li>
-                <li><a href="https://www.linkedin.com/in/priscilla-ma-765894231/">linkedin</a></li>
-                <li>priscillama621@gmail.com</li>
-                <li>(516) 666-2105</li>
-            </ul>
+        <div class="row justify-content-center">
+            <h2 id="contact" class="py-3">connect with me!</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-9" style="font-size: large;">
+                <ul class="pb-3">
+                    <li><a href="https://github.com/middlenamestar">github</a></li>
+                    <li><a href="https://www.linkedin.com/in/priscilla-ma-765894231/">linkedin</a></li>
+                    <li>priscillama621@gmail.com</li>
+                    <li>(516) 666-2105</li>
+                </ul>
+            </div>
         </div>
     </div>
+    <!-- footer -->
     <footer class="text-center mt-1 py-1"><span id="stardust">✪</span></footer>
-
     <!-- jquery and/or bootstrap bundle script. -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
