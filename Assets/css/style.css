@@ -7,7 +7,7 @@ body{
     background: rgb(202, 228, 130);
 }
 
-#star, #header, #works, #contact, ul{
+#star, #header, #works, #contact, ul, #stardust{
     cursor: default;
 }
 
@@ -37,8 +37,13 @@ footer {
     font-style: normal;
 }
 
-img, #stardust{
-    cursor: pointer;
+#avi{
+    max-width: 25%;
+    opacity: 1;
 }
+
+/* img, #stardust{
+    cursor: pointer;
+} */
 
 /* background-color: #bcc5cf; */
