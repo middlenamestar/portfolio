@@ -1,20 +1,15 @@
-# Priscilla's Portfolio
+# Professional Portfolio
 
-## Description
+![portfolio page](/Assets/images/portfolio-img.png)
 
-With this updated and restructured portfolio, the priority was to make the application mobile-responsive. All information is laid out very structurally, top to bottom, making it easy to digest. Simple design is the best design! Thank you and enjoy <3
+[Link](https://middlenamestar.github.io/portfolio/)
 
-## Usage
+## Credit
 
-Simply scroll through the page to browse through resume and recent works, a little info about Priscilla, and lastly her contact information. Cheers :)
+Google Fonts, Bootstrap, @bugdoll - artist credit for avatar
 
-## Screenshot Image
-![Portfolio includes a white background, black text, and images of landing pages.](/Assets/images/screenshot.png)
+## License
 
-## Deployment
+Copyright (c) 2022 stardust productions.
 
-Application is deployed with GitHub Pages: https://middlenamestar.github.io/portfolio/
-
-## Credits
-
-Google Fonts, Bootstrap
+MIT License
