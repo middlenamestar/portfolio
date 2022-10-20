@@ -4,7 +4,7 @@ body{
 }
 
 ::selection{
-    background: rgb(202, 228, 130);
+    background: #00FF00;
 }
 
 #star, #header, #works, #contact, ul, #stardust{
