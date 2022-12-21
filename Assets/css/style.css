@@ -4,10 +4,10 @@ body{
 }
 
 ::selection{
-    background: #00FF00;
+    background: orange;
 }
 
-#star, #header, #works, #contact, ul, #stardust{
+#star, #header, .headings, #contact, ul, #stardust{
     cursor: default;
 }
 
@@ -24,11 +24,11 @@ a:hover {
     border: none;
 }
 
-img{
-    opacity: 0.7;
+#crypto-img{
+    opacity: 0.9;
 }
 
-img:hover{
+#crypto-img:hover{
     opacity: 1;
 }
 
