@@ -1,6 +1,10 @@
+@font-face {
+    font-family: 'AbadiMTStd';
+    src: url('AbadiMTStd.otf');
+}
+
 body{
-    font-family: 'Newsreader', serif;
-    font-style: italic;
+    font-family: 'AbadiMTStd';
 }
 
 ::selection{
@@ -13,23 +17,25 @@ body{
 
 a {
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 a:hover {
     color: black;
+    text-decoration: none;
 }
 
 .card{
     border: none;
 }
 
-#crypto-img{
-    opacity: 0.9;
+#works-img{
+    opacity: 0.7;
+    filter: grayscale(100%);
 }
 
-#crypto-img:hover{
-    opacity: 1;
+#works-img:hover{
+    opacity: 0.8;
 }
 
 footer {
