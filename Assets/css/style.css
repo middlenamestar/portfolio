@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: 'AbadiMTStd';
     src: url('AbadiMTStd.otf');
-}
+} */
 
 body{
-    font-family: 'AbadiMTStd';
+    font-family: 'Arial';
 }
 
 ::selection{
